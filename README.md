@@ -57,8 +57,8 @@ Brought to you by [TechWave Audio](https://techwaveaudio.com)
 ### Inputs
 
 * **MIDI in**: single channel or respond to all channels (omni)
-  * Both MIDI via UART and USB MIDI device in (as of v1.2.0) 
-* **Menu navigation**: Five way switch (up/down, left/right, push enter)
+  * Both MIDI via UART and class-compliant USB MIDI
+* **Menu navigation**: Rotary encoder with push switch
 
 --- 
 ### Outputs
@@ -78,10 +78,9 @@ Using the MCM-100-EX Expansion Module, you can also add an additional four assig
 
 ### Power
 
-This module requires a full 16 pin (2x08 connector) standard Eurorack power connection as it uses both +/- 12v lines as well as the +5v source. 
-Optional selectors in the hardware (via a DIP switch) allow the note signal to pass through to the CV bus line, and the gate signal as well.
+This module requires a 10 pin (2x05 IDC connector) Eurorack power connection. 
 
-Be certain when you plug the connector in that the orientation is the correct way, with the -12v line on the bottom (usually with the red stripe).
+Be certain when you plug the connector in that the orientation is the correct way, with the -12v line (usually with the red stripe) on the left when looking at the rear of the module.
 
 ---
 
